@@ -357,6 +357,7 @@ footer {
     .hero {
         flex-direction: column-reverse;
         padding: 0;
+        font-size: 14px;
 
     }
     .inline-block {
@@ -370,10 +371,12 @@ footer {
     }
     .Header2 {
         width: 400px
+        
+    
     }
 
     .process {
-        font-size: 11px;
+        font-size: 14px;
         padding-left: 10px;
         flex-direction: column;
     }
@@ -389,30 +392,36 @@ footer {
     .about-me,
     .Design-process {
         padding-left: 5px;
-        font-size: small;
+        font-size: 15px;
+        
     }
 
     .p2 {
         width: auto;
         padding-left: 5px;
+        font-size: 14px;
     }
     .projects {
         padding-left: 5px;
-        font-size: small;
+        font-size: 14px;
+        
     }
 
     .mywork {
         grid-template-columns: 1fr;
         padding-left: 70px;
+        font-size: 14px;
         
     }
     .seatmep {
         padding-left: 30px;
         padding-bottom: 20px;
+       
     }
     .justgop {
         padding-left: 30px;
         padding-bottom: 20px;
+        font-size: 14px;
     }
     .cfiap {
         padding-left: 30px;
@@ -420,16 +429,27 @@ footer {
     }
 
     .website {
+        display: flex;
         flex-direction: column;
-        max-width: 20%;
+        width: 100%;
         height: auto;
         padding: 0;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
     }
     .website1 {
-        max-width: 100%
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
         }
     .website2 {
-    }    
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    } 
     .cfiawebp {
     padding-top: 0;
     width: 300px;
@@ -444,6 +464,7 @@ footer {
     .lastsect {
         padding: 0;
         padding-left: 3px;
+        font-size: 14px;
     }
     .footer {
         display: flex;
@@ -457,103 +478,125 @@ footer {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     /* Styles for devices with a minimum width of 768px and maximum width of 1024px (e.g., iPad) */
 
-    .hero {
-        flex-direction: column-reverse;
-        padding: 0;
+ /* Styles for devices with a maximum width of 767px (e.g., iPhone) */
 
-    }
-    .inline-block {
-        display:none
-    }
-    .centered-text {
-        width: 200px;
-    }
-    .Image {
-        padding-left: 40px;
-    }
-    .Header2 {
-        width: 400px
-    }
+ .hero {
+    flex-direction: column-reverse;
+    padding: 0;
+    font-size: 14px;
 
-    .process {
-        font-size: 11px;
-        padding-left: 10px;
-        flex-direction: column;
-    }
-
-    .my-class {
-        padding: 5px;
-    }
-
-    .png {
-       display: none;
-    }
- 
-    .about-me,
-    .Design-process {
-        padding-left: 5px;
-        font-size: small;
-    }
-
-    .p2 {
-        width: auto;
-        padding-left: 5px;
-    }
-    .projects {
-        padding-left: 5px;
-        font-size: small;
-    }
-
-    .mywork {
-        grid-template-columns: 1fr;
-        padding-left: 70px;
-        
-    }
-    .seatmep {
-        padding-left: 30px;
-        padding-bottom: 20px;
-    }
-    .justgop {
-        padding-left: 30px;
-        padding-bottom: 20px;
-    }
-    .cfiap {
-        padding-left: 30px;
-        padding-bottom: 20px;
-    }
-
-    .website {
-        flex-direction: column;
-        max-width: 20%;
-        height: auto;
-        padding: 0;
-    }
-    .website1 {
-        max-width: 100%
-        }
-    .website2 {
-    }    
-    .cfiawebp {
-    padding-top: 0;
-    width: 300px;
-    padding-left: 0;
-    }
+}
+.inline-block {
+    display:none
+}
+.centered-text {
+    width: 200px;
+}
+.Image {
+    padding-left: 40px;
+}
+.Header2 {
+    width: 400px
     
-    .rogerp {
-    padding-top: 0px;
-    width: 500px;
-    padding-left: 0px;
-    }
-    .lastsect {
-        padding: 0;
-        padding-left: 3px;
-    }
-    .footer {
-        display: flex;
-        flex-direction: column 
-    }
-    .footer-section {
-        padding: 10px;
-    }
+
 }
 
+.process {
+    font-size: 14px;
+    padding-left: 10px;
+    flex-direction: column;
+}
+
+.my-class {
+    padding: 5px;
+}
+
+.png {
+   display: none;
+}
+
+.about-me,
+.Design-process {
+    padding-left: 5px;
+    font-size: 15px;
+    
+}
+
+.p2 {
+    width: auto;
+    padding-left: 5px;
+    font-size: 14px;
+}
+.projects {
+    padding-left: 5px;
+    font-size: 14px;
+    
+}
+
+.mywork {
+    grid-template-columns: 1fr;
+    padding-left: 70px;
+    font-size: 14px;
+    
+}
+.seatmep {
+    padding-left: 30px;
+    padding-bottom: 20px;
+   
+}
+.justgop {
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.cfiap {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.website {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.website1 {
+    padding: 0;
+    flex-direction: column;
+    width: 100%;
+    font-size: 14px;
+    }
+.website2 {
+    padding: 0;
+    flex-direction: column;
+    width: 100%;
+    font-size: 14px;
+} 
+.cfiawebp {
+padding-top: 0;
+width: 300px;
+padding-left: 0;
+}
+
+.rogerp {
+padding-top: 0px;
+width: 500px;
+padding-left: 0px;
+}
+.lastsect {
+    padding: 0;
+    padding-left: 3px;
+    font-size: 14px;
+}
+.footer {
+    display: flex;
+    flex-direction: column 
+}
+.footer-section {
+    padding: 10px;
+}
+}
